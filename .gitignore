@@ -1,0 +1,50 @@
+# ===== SECRETS / API KEYS =====
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# ===== Node =====
+node_modules/
+.pnpm-store/
+
+# ===== Build / Dist =====
+dist/
+build/
+*.tsbuildinfo
+
+# ===== Editor / OS =====
+.DS_Store
+.idea/
+.vscode/
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# ===== Logs =====
+*.log
+logs/
+
+# ===== Local data / caches =====
+data/index/
+data/embeddings/
+*.sqlite
+*.db
+
+# ===== Submission artifacts =====
+submission_code.zip
